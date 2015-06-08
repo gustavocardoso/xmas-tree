@@ -1,0 +1,53 @@
+%ball {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: red;
+}
+
+%ball-small {
+  width: 14px;
+  height: 14px;
+}
+
+%ball-large {
+  width: 26px;
+  height: 26px;
+}
+
+%ball-extra-large {
+  width: 30px;
+  height: 30px;
+}
+
+%animation-red-light {
+  animation: redLight 1.4s ease-out infinite normal;
+}
+
+%animation-yellow-light {
+  animation: yellowLight 1.8s ease-out 1.4s infinite normal;
+}
+
+%animation-blue-light {
+  animation: deepskyblueLight 2s ease-out 2s infinite normal;
+}
+
+%snow {
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 1;
+}
+
+%animation-snow-small-falling {
+  animation: snowSmallFalling ease-in infinite backwards;
+}
+
+%animation-snow-normal-falling {
+  animation: snowNormalFalling ease-in-out infinite backwards;
+}
+
+%animation-snow-medium-falling {
+  animation: snowMediumFalling ease-out infinite backwards;
+}

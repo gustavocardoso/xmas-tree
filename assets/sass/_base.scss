@@ -1,0 +1,27 @@
+@viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport  { width: device-width; }
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: auto;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  height: 100%inherit;
+  font: normal normal 100%/1.5 $main-font;
+  color: $main-color;
+  background: $main-background;
+  padding: 2% 4%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
